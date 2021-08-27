@@ -1,13 +1,13 @@
 ### What I changed in Blender to adapt WoW model
-# Scale 80
+# Scale 65
 pdxmesh = {
-	name = "male_horns_draenei_21_mesh"
-	file = "wc_male_horns_draenei_21.mesh"
+	name = "female_wings_succubus_0_mesh"
+	file = "wc_female_wings_succubus_0.mesh"
 
 	meshsettings = {
-		name = "male_horns_draenei_21Shape"
+		name = "female_wings_succubus_0Shape"
 		index = 0
-		texture_diffuse = "draeneihorns_04.dds"
+		texture_diffuse = "succubus2.dds"
 		texture_normal = "default_yellow_normal.dds"
 		texture_specular = "male_elven_eyebrows_0_properties.dds"
 		shader = "portrait_skin_attachment_alpha_to_coverage"
@@ -15,6 +15,6 @@ pdxmesh = {
 	}
 }
 entity = {
-	name = "male_horns_draenei_21_entity"
-	pdxmesh = "male_horns_draenei_21_mesh"
+	name = "female_wings_succubus_0_entity"
+	pdxmesh = "female_wings_succubus_0_mesh"
 }
