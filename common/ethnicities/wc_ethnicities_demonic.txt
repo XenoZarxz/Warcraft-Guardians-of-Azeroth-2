@@ -319,6 +319,10 @@ succubus_ethnicity = {
 	}
 
 	#Other
+	gene_hair_type = {
+        45 = {  name = hair_wavy             range = { 0.35 0.75 }     }
+        10 = {  name = hair_curly             range = { 0.35 0.75 }     }
+    }
 	complexion = {
 		1 = { name = complexion_beauty_1    range = { 0.5 1 } }
 	}
@@ -380,6 +384,7 @@ succubus_ethnicity = {
 succubus_red = {
 	template = "succubus_ethnicity"
 	using = "sayaadi"
+	visible = no
 	
 	# Colors
 	hair_color = {
@@ -393,6 +398,7 @@ succubus_red = {
 succubus_blue = {
 	template = "succubus_ethnicity"
 	using = "sayaadi"
+	visible = no
 	
 	# Colors
 	hair_color = {
@@ -406,6 +412,7 @@ succubus_blue = {
 succubus_magenta = {
 	template = "succubus_ethnicity"
 	using = "sayaadi"
+	visible = no
 	
 	# Colors
 	hair_color = {
